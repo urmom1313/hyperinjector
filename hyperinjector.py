@@ -666,13 +666,6 @@ def inject():
 
 os.system("title hyperinjector")
 
-if data["version"] == version:
-    print("Running Latest Version Of hyperinjector")
-else:
-    os.system("start https://github.com/justDarian/hyperinjector")
-    input("Update Found! Opening the GitHub..")
-    exit()
-
 print("Refreshing NT Userdata")
 os.system("cleanmgr.exe /sagerun:65535")
 print("Starting ROBLOX (make sure your logged in, or else you will get an error)")
